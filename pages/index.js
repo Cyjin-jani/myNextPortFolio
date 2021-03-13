@@ -2,7 +2,6 @@
 // 즉, 서버에 요청을 보내서 다시 html파일부터 불러들이는게 아니라, 그냥 js파일만 가지고 페이지를 그려낸다.
 
 import Link from "next/link";
-
 import Layout from '../components/Layout';
 
 

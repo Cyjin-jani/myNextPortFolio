@@ -1,4 +1,4 @@
-import Link from 'next/link';
+
 import { Component } from 'react';
 import Layout from '../components/Layout';
 // fetch 동작이 잘 안되는 경우?가 있어서 넣은듯... (그냥 axios를 쓰자...)

@@ -1,7 +1,8 @@
 import Layout from '../components/Layout';
+import { withRouter } from'next/router';
 
-const Post = ({ url }) => (
-  <Layout title={url.query.title}>
+const Post = ({ router }) => (
+  <Layout title={router.query.title}>
     <p> Lorem ipsum Lorem  </p>
     <p> Lorem ipsum Lorem  </p>
     <p> Lorem ipsum Lorem  </p>
@@ -9,4 +10,4 @@ const Post = ({ url }) => (
   </Layout>
 )
 
-export default Post;
+export default withRouter(Post);
